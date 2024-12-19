@@ -1,0 +1,48 @@
+header {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-color: var(--gray-200);
+  height: 750px;
+  #avatar {
+    padding-top: 120px;
+    justify-content: center;
+    display: flex;
+  }
+
+  h2 {
+    font: var(--subtitle);
+    color: var(--gray-500);
+    margin-top: 56px;
+    justify-content: center;
+    display: flex;
+  }
+
+  span {
+    margin-right: 10px;
+    margin-left: 10px;
+
+  }
+
+  h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #discribe {
+    font: var(--text-sm);
+    color: var(--gray-400);
+    padding-top: 20px;
+    max-width: 680px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.red-color{
+  color: var(--red);
+}
