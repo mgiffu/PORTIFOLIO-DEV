@@ -33,6 +33,7 @@ header {
     justify-content: center;
   }
 
+
   #discribe {
     font: var(--text-sm);
     color: var(--gray-400);
@@ -45,4 +46,54 @@ header {
 
 .red-color{
   color: var(--red);
+}
+
+nav {
+  /* para estilizar as tags da intro */
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  
+  /* para estilizar os conteúdos dentro das tags da intro */
+  #tag-intro {
+    display: inline-flex; 
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+  }
+}
+
+/* para alterar as cores do dos icones das tags da intro */
+.gethubintro path {
+  fill: var(--gray-500);
+}
+
+.htmlintro path {
+  fill: var(--red);
+}
+
+.cssintro path {
+  fill: var(--blue);
+}
+
+.jsintro path {
+  fill: var(--yellow);
+}
+
+.reactintro path {
+  fill: var(--blue);
+}
+
+.nodeintro path {
+  fill: var(--green);
+}
+
+/* para estilizar as duas cetas apontando para baixo */
+#double-arrows {
+  display: flex;
+  justify-content: center;
+  padding-top: 105px;
 }
