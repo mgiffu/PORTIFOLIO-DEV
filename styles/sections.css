@@ -1,0 +1,29 @@
+#work {
+  background-color: var(--gray-200);
+
+  h2 {
+    font: var(--subtitle);
+    color: var(--red);
+    padding-top: 72px;
+    text-align: center;
+  }
+
+  h3 {
+    font: var(--title-md);
+    color: var(--gray-600);
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  h4 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    padding-block: 24px 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    padding-bottom: 21px;
+  }
+}
