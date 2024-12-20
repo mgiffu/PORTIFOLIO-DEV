@@ -57,7 +57,7 @@ nav {
   justify-content: center;
   gap: 16px;
   
-  /* para estilizar os conteúdos dentro das tags da intro */
+  /* para estilizar os elementos dentro das tags da intro */
   #tag-intro {
     display: inline-flex; 
     align-items: center;
