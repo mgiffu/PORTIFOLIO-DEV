@@ -3,7 +3,6 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
-  background-color: var(--gray-200);
   height: 750px;
   #avatar {
     padding-top: 120px;

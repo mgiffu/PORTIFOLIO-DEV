@@ -7,7 +7,7 @@
 :root {
   /* main colors */
   --red: #E3646E;
-  --puple: #BB72E9;
+  --purple: #BB72E9;
   --blue: #3996DB;
   --green: #82BC4F;
   --yellow: #EABD5F;
@@ -34,6 +34,8 @@
   --font-maven: "Maven Pro", serif;
   --text-md: 400 16px/140% var(--font-maven);
   --text-sm: 400 14px/140% var(--font-maven);
+
+  background-color: var(--gray-200);
 }
 
 .container {
@@ -71,4 +73,19 @@
   padding: 20px 20px 20px 20px;
   width: 280px;
   height: 155px;
+}
+
+.card-contacts {
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  padding: 20px 20px 20px 20px;
+  width: 400px;
+  height: 68px;
+  &:hover {
+    border: 1.5px solid var(--blue);
+    .hover-media path {
+      fill: var(--blue);
+
+    }
+  }
 }
