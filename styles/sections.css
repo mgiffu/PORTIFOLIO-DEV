@@ -2,27 +2,23 @@
   background-color: var(--gray-200);
 
   h2 {
-    font: var(--subtitle);
     color: var(--red);
     padding-top: 72px;
     text-align: center;
   }
 
   h3 {
-    font: var(--title-md);
     color: var(--gray-600);
     text-align: center;
     padding-top: 8px;
   }
 
   h4 {
-    font: var(--title-sm);
     color: var(--gray-600);
     padding-block: 24px 8px;
   }
 
   p {
-    font: var(--text-sm);
     color: var(--gray-500);
   }
 }
@@ -48,14 +44,12 @@
 #services-title {
 
   h2 {
-    font: var(--subtitle);
     color: var(--red);
     text-align: center;
     padding-top: 88px;
   }
 
   h3 {
-    font: var(--title-md);
     color: var(--gray-600);
     text-align: center;
     padding-top: 8px;
@@ -67,13 +61,11 @@
   padding-bottom: 120px;
 
   h2 {
-    font: var(--title-sm);
     color: var(--gray-600);
     padding-block: 20px 8px;
   }
 
   p {
-    font: var(--text-sm);
     color: var(--gray-500);
   }
 }
@@ -88,21 +80,18 @@
 
 #contact-title {
   h2 {
-    font: var(--subtitle);
     color: var(--purple);
     text-align: center;
     padding-top: 128px;
   }
 
   h3 {
-    font: var(--title-md);
     color: var(--gray-600);
     text-align: center;
     padding-block: 8px;
   }
 
   h4 {
-    font: var(--text-md);
     color: var(--gray-500);
     text-align: center;
     /* padding-bottom: 48px; */
@@ -120,7 +109,6 @@
     align-items: center;
 
     span {
-      font: var(--text-md);
       color: var(--gray-500);
       display: inline-flex;
       align-items: center;
